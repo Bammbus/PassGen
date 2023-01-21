@@ -28,7 +28,7 @@ password = "".join(random.sample(all, length))
 #Printing password 
 print("Your randomly-generated password is " + password)
 sleep(1)
-save = input("Do you want to save the password? (y/n)")
+save = input("Do you want to save the password? (y/n)\n")
 #Log system
 if save == "y":
     with open("Password.txt", "w") as file:
