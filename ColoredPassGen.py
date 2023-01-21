@@ -4,6 +4,7 @@ import sys
 from termcolor import colored
 
 introtext = (""Welcome to PasswordGen! This is a very simple open-source program that quickly generates a 20-character password that works everywhere.")
+             print(introtext) 
 sleep(1)
 
 lowercase = "abcdefghijklmnoprstquvxyz"
